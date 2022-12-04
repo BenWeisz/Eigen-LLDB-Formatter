@@ -1,0 +1,7 @@
+command script import ~/dev/config/eigen_format.py
+type summary add -F eigen_format.vec3f Eigen::Vector3f
+type summary add -F eigen_format.vecxf Eigen::VectorXf
+type summary add -F eigen_format.mat2f Eigen::Matrix2f
+type summary add -F eigen_format.mat3f Eigen::Matrix3f
+type summary add -F eigen_format.matxf Eigen::MatrixXf
+
