@@ -1,4 +1,4 @@
-command script import ~/dev/config/eigen_format.py
+command script import ~/path/to/your/formatter/file/eigen_format.py
 type summary add -F eigen_format.vec3f Eigen::Vector3f
 type summary add -F eigen_format.vecxf Eigen::VectorXf
 type summary add -F eigen_format.mat2f Eigen::Matrix2f
